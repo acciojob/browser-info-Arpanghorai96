@@ -4,5 +4,5 @@ window.onload=function() {
 	let appname=navigator.appName;
 	let appVersion=navigator.appVersion;
 	let divelement=document.getElementById("browser-info");
-	divelement.innerHTML=`<p>You are using ${browserName} ${appVersion} ${appname}</p>`
+	divelement.innerHTML=`<p>You are using ${browserName} version ${appVersion}</p>`
 }
